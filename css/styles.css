@@ -40,6 +40,7 @@ h2 {
 /* Header */
 .header-container .container {
   display: flex;
+  
 }
 
 .container {
@@ -1044,6 +1045,7 @@ h2 {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+
 .menu-container {
   position: fixed;
   display: none;
@@ -1083,6 +1085,12 @@ h2 {
   display: block;
   padding: 10px;
 
+  text-decoration: none;
+}
+.menu-container .footer-list {
+gap: 56px;
+}
+.mobile-contacts-link {
   text-decoration: none;
 }
 
@@ -1231,7 +1239,7 @@ h2 {
   }
   .section-footer.container {
     max-width: 100%;
-    padding: 0 15px;
+    padding: 0 16px;
   }
   .footer-form .form-title { text-align: center; }
   .form-footer-text {
@@ -1247,6 +1255,10 @@ h2 {
   }
   .footer-form label {
     width: 100%;
+  }
+  .header-container .container {
+    padding: 0 16px;
+    max-width: 100%;
   }
 }
 @media (min-width: 720px) {
