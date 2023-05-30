@@ -1300,9 +1300,14 @@ h2 {
     background-size: cover;
   }
   .modal-window {
-    max-width: 320px;
+    width: 95%;
   }
-
+  .html {
+    scrollbar-width: none;
+  }
+  .html::-webkit-scrollbar {
+    scrollbar-width: none;
+  }
 }
 @media (min-width: 720px) {
   .menu-toggle {
