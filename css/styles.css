@@ -748,7 +748,7 @@ h2 {
 }
 
 .form-head {
-  width: 360px;
+  width: 100%;
   height: 24px;
   font-family: "Roboto";
   font-style: normal;
@@ -762,7 +762,7 @@ h2 {
 }
 
 .lab-inp-name {
-  width: 360px;
+  width: 100%;
   height: 40px;
   padding-left: 38px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -778,7 +778,7 @@ h2 {
   border-color: var(--color-iris);
 }
 .lab-inp-text {
-  width: 360px;
+  width: 100%;
   height: 120px;
   padding-bottom: 98px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -833,7 +833,7 @@ h2 {
 }
 
 .modal-span {
-  width: 338px;
+  width: 100%;
   height: 16px;
   font-family: "Roboto";
   font-style: normal;
@@ -849,9 +849,12 @@ h2 {
   position: absolute;
   margin-top: 3px;
 }
+.modal-submit-container {
+  display: flex;
+  justify-content: center;
+}
 
 .modal-window-button {
-  margin-left: 100px;
   margin-top: 24px;
   font-family: "Roboto";
   font-style: normal;
@@ -1156,7 +1159,8 @@ h2 {
 
   .contacts-list {
     flex-flow: column;
-    gap: 12px;
+    gap: 4px;
+    padding: 10px 0;
   }
 
   .section-footer {
@@ -1179,6 +1183,12 @@ h2 {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+  }
+  .first-section {
+    padding: 112px 0;
+  }
+  .header-item-link {
+    padding: 7px 0;
   }
 }
 
@@ -1286,6 +1296,13 @@ h2 {
   .fifth-section {
     padding: 96px 0;
   }
+  .first-section {
+    background-size: cover;
+  }
+  .modal-window {
+    max-width: 320px;
+  }
+
 }
 @media (min-width: 720px) {
   .menu-toggle {
