@@ -22,6 +22,8 @@ body {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 ul {
@@ -1312,5 +1314,37 @@ h2 {
 @media (min-width: 720px) {
   .menu-toggle {
     display: none;
+  }
+}
+@media (max-width: 428px) {
+  .first-section {
+    background-image: url(../images/Dark-bgmob_@x1.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .first-section {
+      background-image: url(../images/Dark-bgmob_@2x.jpg);
+    }
+  }
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .first-section {
+    background-image: url(../images/Dark-bgmob_@2x.jpg);
+  }
+}
+
+@media (max-width: 768px) {
+  .first-section {
+    background-image: url(../images/Dark-bgtab_@x1.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .first-section {
+      background-image: url(../images/Dark-bgtab_@2x.jpg);
+    }
   }
 }
